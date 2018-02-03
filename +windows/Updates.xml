@@ -6,29 +6,29 @@
   <Name>com.qtdream.browser</Name>
   <DisplayName>浏览器插件</DisplayName>
   <Description>萌梦浏览器插件。支持浏览互联网数据。</Description>
-  <Version>18.2.3.3789</Version>
+  <Version>18.2.4</Version>
   <ReleaseDate>2018-02-03</ReleaseDate>
   <Script>installScript.js</Script>
   <Dependencies>io.qt.browser</Dependencies>
   <Default>true</Default>
-  <UpdateFile CompressedSize="8411" UncompressedSize="17723" OS="Any"/>
+  <UpdateFile UncompressedSize="17723" CompressedSize="8411" OS="Any"/>
   <DownloadableArchives>qml.7z</DownloadableArchives>
   <Translations>zh_CN.qm</Translations>
-  <SHA1>b162b49ac3a41dd97e189f2c1f8177f9b8ce82db</SHA1>
+  <SHA1>3cb51b91460c637c9b4e788a791321ad8ca5b11b</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>com.qtdream.motioneditor</Name>
   <DisplayName>萌梦动作编辑器插件</DisplayName>
   <Description>萌梦动作编辑器的插件。</Description>
-  <Version>18.2.3.3789</Version>
+  <Version>18.2.4</Version>
   <ReleaseDate>2018-02-03</ReleaseDate>
   <Script>installScript.js</Script>
   <Dependencies>io.qt.motioneditor</Dependencies>
   <Default>true</Default>
-  <UpdateFile CompressedSize="818957" UncompressedSize="2488319" OS="Any"/>
+  <UpdateFile UncompressedSize="2488319" CompressedSize="818957" OS="Any"/>
   <DownloadableArchives>bin.7z,qml.7z</DownloadableArchives>
   <Translations>zh_CN.qm</Translations>
-  <SHA1>cb7ea5ed16e4c87575fd8ddab6885a646b4b67db</SHA1>
+  <SHA1>981809095d68c29ba96bb9f77224bfe5d40d62eb</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>com.qtdream.qtdreammotioneditor</Name>
@@ -37,18 +37,18 @@
 更新说明：&#xd;
 初版。&#xd;
     </Description>
-  <Version>18.2.3.3789</Version>
+  <Version>18.2.4</Version>
   <ReleaseDate>2018-02-03</ReleaseDate>
   <Default>true</Default>
   <Script>installScript.js</Script>
   <Dependencies>com.qtdream.motioneditor</Dependencies>
-  <UpdateFile CompressedSize="24084" UncompressedSize="95784" OS="Any"/>
+  <UpdateFile UncompressedSize="95784" CompressedSize="24099" OS="Any"/>
   <DownloadableArchives>bin.7z</DownloadableArchives>
   <Translations>zh_CN.qm</Translations>
   <Licenses>
    <License name="萌梦动作编辑器" file="license.txt"/>
   </Licenses>
-  <SHA1>67fab640d51aa1a56729d1ea8316d198176a0562</SHA1>
+  <SHA1>aa28675b3f8bbe604fd018cad251c26526dca5c2</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>io.qt</Name>
@@ -56,8 +56,8 @@
   <Description>萌梦软件依赖的基础组件，不同的软件产品依赖不同的组件。</Description>
   <Version>5.10.0</Version>
   <ReleaseDate>2018-02-03</ReleaseDate>
-  <UpdateFile CompressedSize="0" UncompressedSize="0" OS="Any"/>
-  <SHA1>e0a6bcb84fc636dfd2e3d67674c07eacde4dc260</SHA1>
+  <UpdateFile UncompressedSize="0" CompressedSize="0" OS="Any"/>
+  <SHA1>bb380b1d47514c4c9aa57843fd11f86999370d23</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>io.qt.browser</Name>
@@ -68,10 +68,10 @@
   <Script>installScript.js</Script>
   <Default>true</Default>
   <Dependencies>io.qt.motioneditor</Dependencies>
-  <UpdateFile CompressedSize="31131244" UncompressedSize="112056181" OS="Any"/>
+  <UpdateFile UncompressedSize="112056181" CompressedSize="31131244" OS="Any"/>
   <DownloadableArchives>bin.7z,plugins.7z,qml.7z,resources.7z,translations.7z</DownloadableArchives>
   <Translations>zh_CN.qm</Translations>
-  <SHA1>f3be0ed5583d5211c9550aaca788af0864cdb276</SHA1>
+  <SHA1>4fa39d9d4cc9185029824a8ce87cd5be4e213200</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>io.qt.motioneditor</Name>
@@ -82,22 +82,20 @@
   <Script>installScript.js</Script>
   <Default>true</Default>
   <Dependencies>vcredist</Dependencies>
-  <UpdateFile CompressedSize="20954160" UncompressedSize="45263249" OS="Any"/>
+  <UpdateFile UncompressedSize="32128625" CompressedSize="8427470" OS="Any"/>
   <DownloadableArchives>bin.7z,plugins.7z,qml.7z</DownloadableArchives>
   <Translations>zh_CN.qm</Translations>
-  <SHA1>e0be2a8a4f7b99a54142c6ae7b1e4c94b335b47f</SHA1>
+  <SHA1>5964af9ef167aba680351deef5d0513a5a0531da</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>vcredist</Name>
   <DisplayName>微软VC再分发包</DisplayName>
   <Description>微软VC再分发包，适用于使用微软编译器开发的软件产品。</Description>
-  <Version>14.0.23026</Version>
+  <Version>14.0.24210</Version>
   <ReleaseDate>2018-02-03</ReleaseDate>
-  <Script>installScript.js</Script>
   <Default>true</Default>
-  <UpdateFile CompressedSize="12666110" UncompressedSize="13767816" OS="Any"/>
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <Translations>zh_CN.qm</Translations>
-  <SHA1>4ef6c0959be80245e621500850f962cba2e9f76f</SHA1>
+  <UpdateFile UncompressedSize="1035568" CompressedSize="285081" OS="Any"/>
+  <DownloadableArchives>bin.7z</DownloadableArchives>
+  <SHA1>e0e6b350b24fcb7265004124357150309fce4732</SHA1>
  </PackageUpdate>
 </Updates>
