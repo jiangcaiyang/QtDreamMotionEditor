@@ -1,0 +1,103 @@
+<Updates>
+ <ApplicationName>{AnyApplication}</ApplicationName>
+ <ApplicationVersion>1.0.0</ApplicationVersion>
+ <Checksum>true</Checksum>
+ <PackageUpdate>
+  <Name>com.qtdream.browser</Name>
+  <DisplayName>浏览器插件</DisplayName>
+  <Description>萌梦浏览器插件。支持浏览互联网数据。</Description>
+  <Version>18.2.3.3789</Version>
+  <ReleaseDate>2018-02-03</ReleaseDate>
+  <Script>installScript.js</Script>
+  <Dependencies>io.qt.browser</Dependencies>
+  <Default>true</Default>
+  <UpdateFile OS="Any" UncompressedSize="17723" CompressedSize="8411"/>
+  <DownloadableArchives>qml.7z</DownloadableArchives>
+  <Translations>zh_CN.qm</Translations>
+  <SHA1>fc38eb1c7719e74786586a971bbfbaf81a449fee</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>com.qtdream.motioneditor</Name>
+  <DisplayName>萌梦动作编辑器插件</DisplayName>
+  <Description>萌梦动作编辑器的插件。</Description>
+  <Version>18.2.3.3789</Version>
+  <ReleaseDate>2018-02-03</ReleaseDate>
+  <Script>installScript.js</Script>
+  <Dependencies>io.qt.motioneditor</Dependencies>
+  <Default>true</Default>
+  <UpdateFile OS="Any" UncompressedSize="2488319" CompressedSize="818957"/>
+  <DownloadableArchives>bin.7z,qml.7z</DownloadableArchives>
+  <Translations>zh_CN.qm</Translations>
+  <SHA1>73a5447c27b7a7d79e569165542ca62b193c5800</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>com.qtdream.qtdreammotioneditor</Name>
+  <DisplayName>萌梦动作编辑器</DisplayName>
+  <Description>一款编辑模型动作的软件。&#xd;
+更新说明：&#xd;
+初版。&#xd;
+    </Description>
+  <Version>18.2.3.3789</Version>
+  <ReleaseDate>2018-02-03</ReleaseDate>
+  <Default>true</Default>
+  <Script>installScript.js</Script>
+  <Dependencies>com.qtdream.motioneditor</Dependencies>
+  <UpdateFile OS="Any" UncompressedSize="93736" CompressedSize="23128"/>
+  <DownloadableArchives>bin.7z</DownloadableArchives>
+  <Translations>zh_CN.qm</Translations>
+  <Licenses>
+   <License file="license.txt" name="萌梦动作编辑器"/>
+  </Licenses>
+  <SHA1>ea86c0523b7a9aba1bf80fa9763b2af972819491</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>io.qt</Name>
+  <DisplayName>基础组件</DisplayName>
+  <Description>萌梦软件依赖的基础组件，不同的软件产品依赖不同的组件。</Description>
+  <Version>5.10.0</Version>
+  <ReleaseDate>2018-02-03</ReleaseDate>
+  <UpdateFile OS="Any" UncompressedSize="0" CompressedSize="0"/>
+  <SHA1>5413347ec80ffad81989a6d18f3fd094e59679ef</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>io.qt.browser</Name>
+  <DisplayName>浏览器基础组件</DisplayName>
+  <Description>浏览器基础组件。</Description>
+  <Version>5.10.0</Version>
+  <ReleaseDate>2018-02-03</ReleaseDate>
+  <Script>installScript.js</Script>
+  <Default>true</Default>
+  <Dependencies>io.qt.motioneditor</Dependencies>
+  <UpdateFile OS="Any" UncompressedSize="112056181" CompressedSize="31131244"/>
+  <DownloadableArchives>bin.7z,plugins.7z,qml.7z,resources.7z,translations.7z</DownloadableArchives>
+  <Translations>zh_CN.qm</Translations>
+  <SHA1>d5f87601f357abf03cd3bde0d2bfdef4bbb7799b</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>io.qt.motioneditor</Name>
+  <DisplayName>动作编辑器基础组件</DisplayName>
+  <Description>动作编辑器基础组件。</Description>
+  <Version>5.10.0</Version>
+  <ReleaseDate>2018-02-03</ReleaseDate>
+  <Script>installScript.js</Script>
+  <Default>true</Default>
+  <Dependencies>vcredist</Dependencies>
+  <UpdateFile OS="Any" UncompressedSize="45263249" CompressedSize="20954160"/>
+  <DownloadableArchives>bin.7z,plugins.7z,qml.7z</DownloadableArchives>
+  <Translations>zh_CN.qm</Translations>
+  <SHA1>1b32a2be788a51a2002dc7055185545a9fcad6ce</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>vcredist</Name>
+  <DisplayName>微软VC再分发包</DisplayName>
+  <Description>微软VC再分发包，适用于使用微软编译器开发的软件产品。</Description>
+  <Version>14.0.23026</Version>
+  <ReleaseDate>2018-02-03</ReleaseDate>
+  <Script>installScript.js</Script>
+  <Default>true</Default>
+  <UpdateFile OS="Any" UncompressedSize="13767816" CompressedSize="12666110"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <Translations>zh_CN.qm</Translations>
+  <SHA1>72390e17d0912ac94a9c1e1c7d3d523c97358397</SHA1>
+ </PackageUpdate>
+</Updates>
