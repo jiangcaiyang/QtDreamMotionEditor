@@ -11,43 +11,43 @@
   <Script>installScript.js</Script>
   <Dependencies>io.qt.browser</Dependencies>
   <Default>true</Default>
-  <UpdateFile UncompressedSize="17723" OS="Any" CompressedSize="8411"/>
+  <UpdateFile CompressedSize="8411" OS="Any" UncompressedSize="17723"/>
   <DownloadableArchives>qml.7z</DownloadableArchives>
   <Translations>zh_CN.qm</Translations>
-  <SHA1>3b72c8a64754ad4ef41131c769477ee4310072fd</SHA1>
+  <SHA1>7f7f19f7bde11398105b428e6c8c0bf5ee0d8895</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>com.qtdream.motioneditor</Name>
   <DisplayName>萌梦动作编辑器插件</DisplayName>
   <Description>萌梦动作编辑器的插件。更新说明：修正导出GIF图偶发崩溃问题和形变面板未显示问题。&#xd;
     </Description>
-  <Version>18.2.5</Version>
+  <Version>18.2.8</Version>
   <ReleaseDate>2018-02-03</ReleaseDate>
   <Script>installScript.js</Script>
   <Dependencies>io.qt.motioneditor</Dependencies>
   <Default>true</Default>
-  <UpdateFile UncompressedSize="18078056" OS="Any" CompressedSize="2704921"/>
+  <UpdateFile CompressedSize="819843" OS="Any" UncompressedSize="2490367"/>
   <DownloadableArchives>bin.7z,qml.7z</DownloadableArchives>
   <Translations>zh_CN.qm</Translations>
-  <SHA1>ffa1f1b0d3628095134e9f262a25e64a8a69bd4f</SHA1>
+  <SHA1>8f033358325a5bfbaf2ef4c9a6072b551b416154</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>com.qtdream.qtdreammotioneditor</Name>
   <DisplayName>萌梦动作编辑器</DisplayName>
   <Description>一款编辑模型动作的软件。更新说明：更新版本号至18.2.4.3982&#xd;
     </Description>
-  <Version>18.2.5</Version>
+  <Version>18.2.8</Version>
   <ReleaseDate>2018-02-03</ReleaseDate>
   <Default>true</Default>
   <Script>installScript.js</Script>
   <Dependencies>com.qtdream.motioneditor</Dependencies>
-  <UpdateFile UncompressedSize="95784" OS="Any" CompressedSize="24103"/>
+  <UpdateFile CompressedSize="24115" OS="Any" UncompressedSize="95784"/>
   <DownloadableArchives>bin.7z</DownloadableArchives>
   <Translations>zh_CN.qm</Translations>
   <Licenses>
    <License name="萌梦动作编辑器" file="license.txt"/>
   </Licenses>
-  <SHA1>441516544615546846251278836e39adc1fcdc16</SHA1>
+  <SHA1>f78e337fbdcc2fc57051ac7554ece3391df96995</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>io.qt</Name>
@@ -55,8 +55,8 @@
   <Description>萌梦软件依赖的基础组件，不同的软件产品依赖不同的组件。</Description>
   <Version>5.10.0</Version>
   <ReleaseDate>2018-02-03</ReleaseDate>
-  <UpdateFile UncompressedSize="0" OS="Any" CompressedSize="0"/>
-  <SHA1>a9b692094dc918355ff910e5533772dc1d14fe56</SHA1>
+  <UpdateFile CompressedSize="0" OS="Any" UncompressedSize="0"/>
+  <SHA1>a3649728abb792033c41b3d8555e598f194d24cd</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>io.qt.browser</Name>
@@ -67,10 +67,10 @@
   <Script>installScript.js</Script>
   <Default>true</Default>
   <Dependencies>io.qt.motioneditor</Dependencies>
-  <UpdateFile UncompressedSize="112056181" OS="Any" CompressedSize="31131244"/>
+  <UpdateFile CompressedSize="31131244" OS="Any" UncompressedSize="112056181"/>
   <DownloadableArchives>bin.7z,plugins.7z,qml.7z,resources.7z,translations.7z</DownloadableArchives>
   <Translations>zh_CN.qm</Translations>
-  <SHA1>59d9dccf9ff523f418606fa0a8369bcdd213e07f</SHA1>
+  <SHA1>dd5d8ec2d1717ff7d0532f48c53086a524b993dd</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>io.qt.motioneditor</Name>
@@ -81,10 +81,10 @@
   <Script>installScript.js</Script>
   <Default>true</Default>
   <Dependencies>vcredist</Dependencies>
-  <UpdateFile UncompressedSize="32128625" OS="Any" CompressedSize="8427470"/>
+  <UpdateFile CompressedSize="8427470" OS="Any" UncompressedSize="32128625"/>
   <DownloadableArchives>bin.7z,plugins.7z,qml.7z</DownloadableArchives>
   <Translations>zh_CN.qm</Translations>
-  <SHA1>7e05333b357b00c3ba17921ec35520c1b12c2a22</SHA1>
+  <SHA1>d90849e7461ab02b447727bb5c99fc9990eac4cc</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>vcredist</Name>
@@ -93,8 +93,8 @@
   <Version>14.0.24210</Version>
   <ReleaseDate>2018-02-03</ReleaseDate>
   <Default>true</Default>
-  <UpdateFile UncompressedSize="1035568" OS="Any" CompressedSize="285081"/>
+  <UpdateFile CompressedSize="285081" OS="Any" UncompressedSize="1035568"/>
   <DownloadableArchives>bin.7z</DownloadableArchives>
-  <SHA1>4f48b930174a8d5c92a390d3d067a253c21f4a3b</SHA1>
+  <SHA1>fafdfb489a073cd9a3ca8e218c18ed88cc4ad2c1</SHA1>
  </PackageUpdate>
 </Updates>
