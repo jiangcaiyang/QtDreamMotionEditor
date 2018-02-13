@@ -11,10 +11,10 @@
   <Script>installScript.js</Script>
   <Dependencies>io.qt.browser</Dependencies>
   <Default>true</Default>
-  <UpdateFile CompressedSize="16422" OS="Any" UncompressedSize="35131"/>
+  <UpdateFile OS="Any" UncompressedSize="35131" CompressedSize="16422"/>
   <DownloadableArchives>qml.7z</DownloadableArchives>
   <Translations>zh_CN.qm</Translations>
-  <SHA1>38339e6a138839fc588c44c96e62136b19957afb</SHA1>
+  <SHA1>5831515b9e3a9d97e598c23d5f8b45ce205b75e1</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>com.qtdream.motioneditor</Name>
@@ -26,10 +26,10 @@
   <Script>installScript.js</Script>
   <Dependencies>io.qt.motioneditor</Dependencies>
   <Default>true</Default>
-  <UpdateFile CompressedSize="1051712" OS="Any" UncompressedSize="3051547"/>
+  <UpdateFile OS="Any" UncompressedSize="2495515" CompressedSize="820698"/>
   <DownloadableArchives>bin.7z,qml.7z</DownloadableArchives>
   <Translations>zh_CN.qm</Translations>
-  <SHA1>b2efc81520a5c976d1172c470dc3e107423a83b8</SHA1>
+  <SHA1>b60b663cdddab995f51d644c167097d0148f4fad</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>com.qtdream.qtdreammotioneditor</Name>
@@ -41,13 +41,13 @@
   <Default>true</Default>
   <Script>installScript.js</Script>
   <Dependencies>com.qtdream.motioneditor</Dependencies>
-  <UpdateFile CompressedSize="81685" OS="Any" UncompressedSize="242216"/>
+  <UpdateFile OS="Any" UncompressedSize="240680" CompressedSize="81318"/>
   <DownloadableArchives>bin.7z</DownloadableArchives>
   <Translations>zh_CN.qm</Translations>
   <Licenses>
    <License name="萌梦动作编辑器" file="license.txt"/>
   </Licenses>
-  <SHA1>d09fa50bea7ad4bd4d54f06deab282f5cdb95eb7</SHA1>
+  <SHA1>298051edc34ebe9ac6b1a6ab8172170be3ca9979</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>io.qt</Name>
@@ -55,8 +55,8 @@
   <Description>萌梦软件依赖的基础组件，不同的软件产品依赖不同的组件。</Description>
   <Version>5.10.0</Version>
   <ReleaseDate>2018-02-03</ReleaseDate>
-  <UpdateFile CompressedSize="0" OS="Any" UncompressedSize="0"/>
-  <SHA1>d24809b81ab3c5bd84bc61d2873f400de35acd09</SHA1>
+  <UpdateFile OS="Any" UncompressedSize="0" CompressedSize="0"/>
+  <SHA1>c0e02197cbedf6545c871d8fae479700a432f569</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>io.qt.browser</Name>
@@ -67,10 +67,10 @@
   <Script>installScript.js</Script>
   <Default>true</Default>
   <Dependencies>io.qt.motioneditor</Dependencies>
-  <UpdateFile CompressedSize="31131244" OS="Any" UncompressedSize="112056181"/>
+  <UpdateFile OS="Any" UncompressedSize="112056181" CompressedSize="31131244"/>
   <DownloadableArchives>bin.7z,plugins.7z,qml.7z,resources.7z,translations.7z</DownloadableArchives>
   <Translations>zh_CN.qm</Translations>
-  <SHA1>7618baaa9613bcc8c0757fffbd4a048b4952b60a</SHA1>
+  <SHA1>5572fd650624052790180e38b1fa6a0c8ebbfc4f</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>io.qt.motioneditor</Name>
@@ -81,10 +81,10 @@
   <Script>installScript.js</Script>
   <Default>true</Default>
   <Dependencies>vcredist</Dependencies>
-  <UpdateFile CompressedSize="8286675" OS="Any" UncompressedSize="31495473"/>
+  <UpdateFile OS="Any" UncompressedSize="31495473" CompressedSize="8286675"/>
   <DownloadableArchives>bin.7z,plugins.7z,qml.7z</DownloadableArchives>
   <Translations>zh_CN.qm</Translations>
-  <SHA1>511d70494db3c7cdd8642902171f1c100992956e</SHA1>
+  <SHA1>2fb539c0969294741a1d503f6513bf650937e5fc</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>vcredist</Name>
@@ -93,8 +93,8 @@
   <Version>14.0.24210</Version>
   <ReleaseDate>2018-02-03</ReleaseDate>
   <Default>true</Default>
-  <UpdateFile CompressedSize="285081" OS="Any" UncompressedSize="1035568"/>
+  <UpdateFile OS="Any" UncompressedSize="1035568" CompressedSize="285081"/>
   <DownloadableArchives>bin.7z</DownloadableArchives>
-  <SHA1>25405a8c8f36895d98ed7c97b263b24d34c20515</SHA1>
+  <SHA1>aeb112ecf3a6840bdc51090b18db16f13eaf73d1</SHA1>
  </PackageUpdate>
 </Updates>
