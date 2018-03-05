@@ -11,43 +11,75 @@
   <Script>installScript.js</Script>
   <Dependencies>io.qt.browser</Dependencies>
   <Default>true</Default>
-  <UpdateFile OS="Any" UncompressedSize="35131" CompressedSize="16411"/>
+  <UpdateFile UncompressedSize="35131" CompressedSize="16411" OS="Any"/>
   <DownloadableArchives>qml.7z</DownloadableArchives>
   <Translations>zh_CN.qm</Translations>
-  <SHA1>0660b029c050020ea291ba86de9843cbe773aacd</SHA1>
+  <SHA1>7962b1bfe46db4c1a3b6c9f9dcc150c48f8575be</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>com.qtdream.motioneditor</Name>
   <DisplayName>萌梦动作编辑器插件</DisplayName>
   <Description>萌梦动作编辑器的插件。更新说明：添加了导出webp动图的功能。&#xd;
     </Description>
-  <Version>18.2.23</Version>
-  <ReleaseDate>2018-02-23</ReleaseDate>
+  <Version>18.3.5</Version>
+  <ReleaseDate>2018-03-05</ReleaseDate>
   <Script>installScript.js</Script>
   <Dependencies>io.qt.motioneditor</Dependencies>
   <Default>true</Default>
-  <UpdateFile OS="Any" UncompressedSize="2919963" CompressedSize="995361"/>
+  <UpdateFile UncompressedSize="2919963" CompressedSize="995361" OS="Any"/>
   <DownloadableArchives>bin.7z,qml.7z</DownloadableArchives>
   <Translations>zh_CN.qm</Translations>
-  <SHA1>7b8e16d2fff9698f27c54b89a8f45b8d02312d90</SHA1>
+  <SHA1>b6c36cd1ae4ba3eed67877c1e41ef72a573befa5</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>com.qtdream.motioneditor5</Name>
+  <DisplayName>萌梦动作编辑器2插件</DisplayName>
+  <Description>萌梦动作编辑器2的插件。更新说明：初版。&#xd;
+    </Description>
+  <Version>18.3.4</Version>
+  <ReleaseDate>2018-03-04</ReleaseDate>
+  <Script>installScript.js</Script>
+  <Dependencies>io.qt.motioneditor5</Dependencies>
+  <Default>true</Default>
+  <UpdateFile UncompressedSize="2896806" CompressedSize="972579" OS="Any"/>
+  <DownloadableArchives>bin.7z,qml.7z</DownloadableArchives>
+  <Translations>zh_CN.qm</Translations>
+  <SHA1>8d16bfe1bf81802fa390cf3355dcaee4c9c853ef</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>com.qtdream.qtdreammotioneditor</Name>
   <DisplayName>萌梦动作编辑器</DisplayName>
-  <Description>一款编辑模型动作的软件。更新说明：添加了导出webp动图的功能。&#xd;
+  <Description>一款编辑模型动作的软件。更新说明：更新版本至5.10.1。&#xd;
     </Description>
-  <Version>18.2.23</Version>
-  <ReleaseDate>2018-02-23</ReleaseDate>
+  <Version>18.3.5</Version>
+  <ReleaseDate>2018-03-05</ReleaseDate>
   <Default>true</Default>
   <Script>installScript.js</Script>
   <Dependencies>com.qtdream.motioneditor</Dependencies>
-  <UpdateFile OS="Any" UncompressedSize="241192" CompressedSize="81773"/>
+  <UpdateFile UncompressedSize="241192" CompressedSize="81773" OS="Any"/>
   <DownloadableArchives>bin.7z</DownloadableArchives>
   <Translations>zh_CN.qm</Translations>
   <Licenses>
-   <License name="萌梦动作编辑器" file="license.txt"/>
+   <License file="license.txt" name="萌梦动作编辑器"/>
   </Licenses>
-  <SHA1>5be3cbdc2a909ea730d148778f693a3258330db3</SHA1>
+  <SHA1>a6ff67218d7abf08f63160f74893ab437d25cf8f</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>com.qtdream.qtdreammotioneditor2</Name>
+  <DisplayName>萌梦动作编辑器2</DisplayName>
+  <Description>一款编辑模型动作的软件，此为第二版。更新说明：初版</Description>
+  <Version>18.3.5</Version>
+  <ReleaseDate>2018-03-05</ReleaseDate>
+  <Default>true</Default>
+  <Script>installScript.js</Script>
+  <Dependencies>com.qtdream.motioneditor5</Dependencies>
+  <UpdateFile UncompressedSize="242728" CompressedSize="83189" OS="Any"/>
+  <DownloadableArchives>bin.7z</DownloadableArchives>
+  <Translations>zh_CN.qm</Translations>
+  <Licenses>
+   <License file="license.txt" name="萌梦动作编辑器2"/>
+  </Licenses>
+  <SHA1>b1008cedaf703e67b41a75e5b27a97b8e2aa4b06</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>io.qt</Name>
@@ -55,36 +87,51 @@
   <Description>萌梦软件依赖的基础组件，不同的软件产品依赖不同的组件。</Description>
   <Version>5.10.0</Version>
   <ReleaseDate>2018-02-03</ReleaseDate>
-  <UpdateFile OS="Any" UncompressedSize="0" CompressedSize="0"/>
-  <SHA1>4f38c908f43ad2cf472742283541bc4ad563b380</SHA1>
+  <UpdateFile UncompressedSize="0" CompressedSize="0" OS="Any"/>
+  <SHA1>2559d681851cb4c366c8e4e89e9d9cdcae5de78c</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>io.qt.browser</Name>
   <DisplayName>浏览器基础组件</DisplayName>
-  <Description>浏览器基础组件。</Description>
-  <Version>5.10.0</Version>
-  <ReleaseDate>2018-02-03</ReleaseDate>
+  <Description>浏览器基础组件。更新说明：更新版本至5.10.1。</Description>
+  <Version>5.10.1</Version>
+  <ReleaseDate>2018-03-05</ReleaseDate>
   <Script>installScript.js</Script>
   <Default>true</Default>
   <Dependencies>io.qt.motioneditor</Dependencies>
-  <UpdateFile OS="Any" UncompressedSize="112056181" CompressedSize="31131244"/>
+  <UpdateFile UncompressedSize="111666332" CompressedSize="31058201" OS="Any"/>
   <DownloadableArchives>bin.7z,plugins.7z,qml.7z,resources.7z,translations.7z</DownloadableArchives>
   <Translations>zh_CN.qm</Translations>
-  <SHA1>583d257c48d2cfd894c7a818aa7df29363bc1bcb</SHA1>
+  <SHA1>ac26d9c461a3d1394ce65c9f4a5d61353bcd1068</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>io.qt.motioneditor</Name>
   <DisplayName>动作编辑器基础组件</DisplayName>
-  <Description>动作编辑器基础组件。</Description>
-  <Version>5.10.0</Version>
-  <ReleaseDate>2018-02-03</ReleaseDate>
+  <Description>动作编辑器基础组件。更新说明：更新版本至5.10.1。</Description>
+  <Version>5.10.1</Version>
+  <ReleaseDate>2018-03-05</ReleaseDate>
   <Script>installScript.js</Script>
   <Default>true</Default>
   <Dependencies>vcredist</Dependencies>
-  <UpdateFile OS="Any" UncompressedSize="31495473" CompressedSize="8286671"/>
+  <UpdateFile UncompressedSize="30972287" CompressedSize="8255510" OS="Any"/>
   <DownloadableArchives>bin.7z,plugins.7z,qml.7z</DownloadableArchives>
   <Translations>zh_CN.qm</Translations>
-  <SHA1>cde01e62d063b2c1209bd103a719537fd57f8552</SHA1>
+  <SHA1>28a671948fcaa27a6f7500d4dd9bb4331c5480ee</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>io.qt.motioneditor5</Name>
+  <DisplayName>动作编辑器2基础组件</DisplayName>
+  <Description>动作编辑器2基础组件。</Description>
+  <Version>5.10.1</Version>
+  <ReleaseDate>2018-03-05</ReleaseDate>
+  <Script>installScript.js</Script>
+  <Default>true</Default>
+  <Dependencies>vcredist</Dependencies>
+  <Dependencies>io.qt.motioneditor</Dependencies>
+  <UpdateFile UncompressedSize="7669167" CompressedSize="1563365" OS="Any"/>
+  <DownloadableArchives>bin.7z,qml.7z</DownloadableArchives>
+  <Translations>zh_CN.qm</Translations>
+  <SHA1>7b9ee9ec5805be53fa3c33c9d0d5f7a1b9f4d0f1</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>vcredist</Name>
@@ -93,8 +140,8 @@
   <Version>14.0.24210</Version>
   <ReleaseDate>2018-02-03</ReleaseDate>
   <Default>true</Default>
-  <UpdateFile OS="Any" UncompressedSize="1035568" CompressedSize="285081"/>
+  <UpdateFile UncompressedSize="1035568" CompressedSize="285081" OS="Any"/>
   <DownloadableArchives>bin.7z</DownloadableArchives>
-  <SHA1>c594b20da6d4066f187978b30cdd67bd8e3294d4</SHA1>
+  <SHA1>4078c666d4e5b011acfe10ad9f2c7a70a5d76c89</SHA1>
  </PackageUpdate>
 </Updates>
