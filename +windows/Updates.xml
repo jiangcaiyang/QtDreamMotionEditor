@@ -8,12 +8,12 @@
   <Description>微软VC再分发包，适用于使用微软编译器开发的软件产品。</Description>
   <Version>14.0.24210</Version>
   <ReleaseDate>2018-02-03</ReleaseDate>
-  <UpdateFile CompressedSize="285081" OS="Any" UncompressedSize="1035568"/>
+  <UpdateFile CompressedSize="285081" UncompressedSize="1035568" OS="Any"/>
   <DownloadableArchives>bin.7z</DownloadableArchives>
   <Licenses>
-   <License file="license.txt" name="微软VC再分发包"/>
+   <License name="微软VC再分发包" file="license.txt"/>
   </Licenses>
-  <SHA1>bfbc7fd15bbb7d890035a52e8a752ccb4e97d30c</SHA1>
+  <SHA1>0ade7c04e2ee1f6d73e8a4b705dfb37efdf362bb</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>com.qtdream.browser</Name>
@@ -24,10 +24,10 @@
   <Script>installScript.js</Script>
   <Dependencies>io.qt.browser</Dependencies>
   <Default>true</Default>
-  <UpdateFile CompressedSize="8444" OS="Any" UncompressedSize="17723"/>
+  <UpdateFile CompressedSize="8444" UncompressedSize="17723" OS="Any"/>
   <DownloadableArchives>qml.7z</DownloadableArchives>
   <Translations>zh_CN.qm</Translations>
-  <SHA1>6821bc44f1367a47145c87597754d4ca0b525077</SHA1>
+  <SHA1>5978c65e964bc1aa31746178d1c4801c9a397ed6</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>com.qtdream.browser2</Name>
@@ -38,10 +38,10 @@
   <Script>installScript.js</Script>
   <Dependencies>io.qt.browser</Dependencies>
   <Default>true</Default>
-  <UpdateFile CompressedSize="8428" OS="Any" UncompressedSize="17725"/>
+  <UpdateFile CompressedSize="8428" UncompressedSize="17725" OS="Any"/>
   <DownloadableArchives>qml.7z</DownloadableArchives>
   <Translations>zh_CN.qm</Translations>
-  <SHA1>883562653027b80fc52cad58acfdb561cce7dd00</SHA1>
+  <SHA1>01bdf28cf4fcbe9d91a6c48077167ef9da7ef07a</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>com.qtdream.motioneditor</Name>
@@ -52,10 +52,10 @@
   <ReleaseDate>2018-03-20</ReleaseDate>
   <Script>installScript.js</Script>
   <Dependencies>io.qt.motioneditor</Dependencies>
-  <UpdateFile CompressedSize="996761" OS="Any" UncompressedSize="2922399"/>
+  <UpdateFile CompressedSize="997164" UncompressedSize="2922911" OS="Any"/>
   <DownloadableArchives>bin.7z,qml.7z</DownloadableArchives>
   <Translations>zh_CN.qm</Translations>
-  <SHA1>3be5438a008695953b3d27092c4448715baacd18</SHA1>
+  <SHA1>7e2cb77fbb878fbfa4de41613e2fe169e22c2ce3</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>com.qtdream.motioneditor5</Name>
@@ -66,10 +66,10 @@
   <ReleaseDate>2018-03-20</ReleaseDate>
   <Script>installScript.js</Script>
   <Dependencies>io.qt.motioneditor5</Dependencies>
-  <UpdateFile CompressedSize="973855" OS="Any" UncompressedSize="2898218"/>
+  <UpdateFile CompressedSize="973566" UncompressedSize="2898730" OS="Any"/>
   <DownloadableArchives>bin.7z,qml.7z</DownloadableArchives>
   <Translations>zh_CN.qm</Translations>
-  <SHA1>32a6cba081498e7b6e88b4db28b0041c5094f8a8</SHA1>
+  <SHA1>5aa6f19ba3e9266fbf4c60d7e3d6084049293278</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>com.qtdream.qtdreammotioneditor</Name>
@@ -81,13 +81,13 @@
   <Default>true</Default>
   <Script>installScript.js</Script>
   <Dependencies>com.qtdream.motioneditor, com.microsoft.vcredist, org.openssl</Dependencies>
-  <UpdateFile CompressedSize="82003" OS="Any" UncompressedSize="241192"/>
+  <UpdateFile CompressedSize="82003" UncompressedSize="241192" OS="Any"/>
   <DownloadableArchives>bin.7z</DownloadableArchives>
   <Translations>zh_CN.qm</Translations>
   <Licenses>
-   <License file="license.txt" name="萌梦动作编辑器"/>
+   <License name="萌梦动作编辑器" file="license.txt"/>
   </Licenses>
-  <SHA1>b580bd82ae7331a088bf0b7c40788c82e174e1c0</SHA1>
+  <SHA1>b79fcdc434e2c188af65cec187e2612b2024c596</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>com.qtdream.qtdreammotioneditor2</Name>
@@ -98,13 +98,13 @@
   <Default>true</Default>
   <Script>installScript.js</Script>
   <Dependencies>com.qtdream.motioneditor5, com.microsoft.vcredist, org.openssl</Dependencies>
-  <UpdateFile CompressedSize="83459" OS="Any" UncompressedSize="243240"/>
+  <UpdateFile CompressedSize="83459" UncompressedSize="243240" OS="Any"/>
   <DownloadableArchives>bin.7z</DownloadableArchives>
   <Translations>zh_CN.qm</Translations>
   <Licenses>
-   <License file="license.txt" name="萌梦动作编辑器2"/>
+   <License name="萌梦动作编辑器2" file="license.txt"/>
   </Licenses>
-  <SHA1>812b3a0d58cc1540444c633dd45e012abe3f3b7e</SHA1>
+  <SHA1>81725b687de0d1312e6ffc1cc689bfab47e8d0f0</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>io.qt</Name>
@@ -112,8 +112,8 @@
   <Description>萌梦软件依赖的基础组件，不同的软件产品依赖不同的组件。</Description>
   <Version>5.10.1</Version>
   <ReleaseDate>2018-03-19</ReleaseDate>
-  <UpdateFile CompressedSize="0" OS="Any" UncompressedSize="0"/>
-  <SHA1>63bd6683487733d9a2399d462616e9881c5abad1</SHA1>
+  <UpdateFile CompressedSize="0" UncompressedSize="0" OS="Any"/>
+  <SHA1>d2feb37874d1d698b9e07c0fd6998e27c79c5b31</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>io.qt.browser</Name>
@@ -122,10 +122,10 @@
   <Version>5.10.1</Version>
   <ReleaseDate>2018-03-05</ReleaseDate>
   <Script>installScript.js</Script>
-  <UpdateFile CompressedSize="31086772" OS="Any" UncompressedSize="111787245"/>
+  <UpdateFile CompressedSize="31086772" UncompressedSize="111787245" OS="Any"/>
   <DownloadableArchives>bin.7z,plugins.7z,qml.7z,resources.7z,translations.7z</DownloadableArchives>
   <Translations>zh_CN.qm</Translations>
-  <SHA1>65ab14a920a4453dc7719deb0e590ec0b1d67314</SHA1>
+  <SHA1>8308ff575a08cdc76a672693da255e49c2edf75c</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>io.qt.motioneditor</Name>
@@ -134,10 +134,10 @@
   <Version>5.10.1</Version>
   <ReleaseDate>2018-03-05</ReleaseDate>
   <Script>installScript.js</Script>
-  <UpdateFile CompressedSize="8255510" OS="Any" UncompressedSize="30972287"/>
+  <UpdateFile CompressedSize="8255510" UncompressedSize="30972287" OS="Any"/>
   <DownloadableArchives>bin.7z,plugins.7z,qml.7z</DownloadableArchives>
   <Translations>zh_CN.qm</Translations>
-  <SHA1>a10a9682928933824bd9a34ab3b467176dc8fe0b</SHA1>
+  <SHA1>f0c879703291e797937976649e251cb0c404cdec</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>io.qt.motioneditor5</Name>
@@ -147,10 +147,10 @@
   <ReleaseDate>2018-03-05</ReleaseDate>
   <Script>installScript.js</Script>
   <Dependencies>io.qt.motioneditor</Dependencies>
-  <UpdateFile CompressedSize="1563365" OS="Any" UncompressedSize="7669167"/>
+  <UpdateFile CompressedSize="1600182" UncompressedSize="7833605" OS="Any"/>
   <DownloadableArchives>bin.7z,qml.7z</DownloadableArchives>
   <Translations>zh_CN.qm</Translations>
-  <SHA1>e79a1acb8d42a7c494cb2d48b5101fde42d6dd9a</SHA1>
+  <SHA1>c269aa2407202c74be6561dd9765e8ba5a8233da</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>jp.sblo.kiomodel3</Name>
@@ -158,12 +158,12 @@
   <Description>结月ゆかり模型，来源于mikuru396さん制作的模型。收录在《MikuMikuDanceスターターパックDX》中。</Description>
   <Version>1.0.0</Version>
   <ReleaseDate>2018-03-20</ReleaseDate>
-  <UpdateFile CompressedSize="3260823" OS="Any" UncompressedSize="22232612"/>
+  <UpdateFile CompressedSize="3260823" UncompressedSize="22232612" OS="Any"/>
   <DownloadableArchives>models.7z,motions.7z</DownloadableArchives>
   <Licenses>
-   <License file="readme.txt" name="结月ゆかり模型"/>
+   <License name="结月ゆかり模型" file="readme.txt"/>
   </Licenses>
-  <SHA1>37f8930ba32504ea3d38f5dd6d41901dd7c4fbbb</SHA1>
+  <SHA1>a9f6d29ba4c5a3fb0468541142eaa2e4fd23c075</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>org.openssl</Name>
@@ -171,11 +171,11 @@
   <Description>OpenSSL库，适用于在Windows x86平台上使用的OpenSSL库。</Description>
   <Version>1.0.2.14</Version>
   <ReleaseDate>2017-12-07</ReleaseDate>
-  <UpdateFile CompressedSize="549186" OS="Any" UncompressedSize="1821224"/>
+  <UpdateFile CompressedSize="549186" UncompressedSize="1821224" OS="Any"/>
   <DownloadableArchives>bin.7z</DownloadableArchives>
   <Licenses>
-   <License file="license.txt" name="OpenSSL库"/>
+   <License name="OpenSSL库" file="license.txt"/>
   </Licenses>
-  <SHA1>abaa1ef46adf061e7f98974bc1a56d53d6ae4689</SHA1>
+  <SHA1>fcf72c836f6f3ad4598dd09efaadba601fed0bb9</SHA1>
  </PackageUpdate>
 </Updates>
